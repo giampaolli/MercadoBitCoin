@@ -10,7 +10,6 @@
 		DDAAAABB2A1A641C00D36D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */; };
 		DDAAAABD2A1A641C00D36D85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */; };
 		DDAAAABF2A1A641C00D36D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAABE2A1A641C00D36D85 /* ViewController.swift */; };
-		DDAAAAC22A1A641C00D36D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAAC02A1A641C00D36D85 /* Main.storyboard */; };
 		DDAAAAC42A1A641D00D36D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAAC32A1A641D00D36D85 /* Assets.xcassets */; };
 		DDAAAAC72A1A641D00D36D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAAC52A1A641D00D36D85 /* LaunchScreen.storyboard */; };
 		DDAAAAD22A1A641D00D36D85 /* MercadoBitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAD12A1A641D00D36D85 /* MercadoBitcoinTests.swift */; };
@@ -40,7 +39,6 @@
 		DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DDAAAABE2A1A641C00D36D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDAAAAC12A1A641C00D36D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDAAAAC32A1A641D00D36D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDAAAAC62A1A641D00D36D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDAAAAC82A1A641D00D36D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */,
 				DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */,
 				DDAAAABE2A1A641C00D36D85 /* ViewController.swift */,
-				DDAAAAC02A1A641C00D36D85 /* Main.storyboard */,
 				DDAAAAC32A1A641D00D36D85 /* Assets.xcassets */,
 				DDAAAAC52A1A641D00D36D85 /* LaunchScreen.storyboard */,
 				DDAAAAC82A1A641D00D36D85 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				DDAAAAC72A1A641D00D36D85 /* LaunchScreen.storyboard in Resources */,
 				DDAAAAC42A1A641D00D36D85 /* Assets.xcassets in Resources */,
-				DDAAAAC22A1A641C00D36D85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDAAAAC02A1A641C00D36D85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDAAAAC12A1A641C00D36D85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDAAAAC52A1A641D00D36D85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +430,6 @@
 				INFOPLIST_FILE = MercadoBitcoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +457,6 @@
 				INFOPLIST_FILE = MercadoBitcoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
