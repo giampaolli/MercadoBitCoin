@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81672379B0A5F97AFA7F758C /* Pods_MercadoBitcoin_MercadoBitcoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37FF787BF4B998AE719C0B3 /* Pods_MercadoBitcoin_MercadoBitcoinUITests.framework */; };
+		89759796D94B377EA9F91C3E /* Pods_MercadoBitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE0A86F43C15E11D6A56912 /* Pods_MercadoBitcoin.framework */; };
 		DDAAAABB2A1A641C00D36D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */; };
 		DDAAAABD2A1A641C00D36D85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */; };
-		DDAAAABF2A1A641C00D36D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAABE2A1A641C00D36D85 /* ViewController.swift */; };
 		DDAAAAC42A1A641D00D36D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAAC32A1A641D00D36D85 /* Assets.xcassets */; };
 		DDAAAAC72A1A641D00D36D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAAC52A1A641D00D36D85 /* LaunchScreen.storyboard */; };
-		DDAAAAD22A1A641D00D36D85 /* MercadoBitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAD12A1A641D00D36D85 /* MercadoBitcoinTests.swift */; };
 		DDAAAADC2A1A641D00D36D85 /* MercadoBitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAADB2A1A641D00D36D85 /* MercadoBitcoinUITests.swift */; };
 		DDAAAADE2A1A641D00D36D85 /* MercadoBitcoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAADD2A1A641D00D36D85 /* MercadoBitcoinUITestsLaunchTests.swift */; };
+		DDAAAAEE2A1A68B900D36D85 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAED2A1A68B900D36D85 /* Enviroment.swift */; };
+		DDAAAAF12A1A6CF900D36D85 /* ExchangeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAF02A1A6CF900D36D85 /* ExchangeListViewController.swift */; };
+		DDAAAAF52A1A6F9F00D36D85 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAF42A1A6F9F00D36D85 /* NetworkSession.swift */; };
+		DDAAAAF82A1A706D00D36D85 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAF72A1A706D00D36D85 /* BaseViewController.swift */; };
+		DDAAAAFA2A1A70D500D36D85 /* ExchangeListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAF92A1A70D500D36D85 /* ExchangeListService.swift */; };
+		DDAAAAFD2A1A796100D36D85 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAFC2A1A796100D36D85 /* Exchange.swift */; };
+		DDAAAB002A1A900F00D36D85 /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAAFF2A1A900F00D36D85 /* ExchangeCell.swift */; };
+		DDAAAB022A1A9B1900D36D85 /* ExchangeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB012A1A9B1900D36D85 /* ExchangeListViewModel.swift */; };
+		DDAAAB042A1ABD5F00D36D85 /* Decimal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB032A1ABD5F00D36D85 /* Decimal+Extensions.swift */; };
+		DDAAAB072A1AC0AC00D36D85 /* ExchangeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB062A1AC0AC00D36D85 /* ExchangeDetailsViewController.swift */; };
+		DDAAAB092A1AC10D00D36D85 /* ExchangeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB082A1AC10D00D36D85 /* ExchangeDetailsViewModel.swift */; };
+		DDAAAB0C2A1ACB6000D36D85 /* ExchangeDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB0B2A1ACB6000D36D85 /* ExchangeDetailsRowView.swift */; };
+		DDAAAB0E2A1AF47B00D36D85 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB0D2A1AF47B00D36D85 /* Date+Extensions.swift */; };
+		DDAAAB112A1C15F900D36D85 /* ExchangeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB102A1C15F900D36D85 /* ExchangeCoordinator.swift */; };
+		DDAAAB132A1C163400D36D85 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB122A1C163400D36D85 /* BaseCoordinator.swift */; };
+		DDAAAB1E2A1E3C0A00D36D85 /* TableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB1D2A1E3C0A00D36D85 /* TableView+Extensions.swift */; };
+		DDAAAB2B2A1F7D7C00D36D85 /* ExchangeListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB2A2A1F7D7C00D36D85 /* ExchangeListViewModelTest.swift */; };
+		DDAAAB332A1F859900D36D85 /* LoadJSONMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB322A1F859900D36D85 /* LoadJSONMock.swift */; };
+		DDAAAB362A1F86C900D36D85 /* exchangeList_sucess.json in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAB352A1F86C900D36D85 /* exchangeList_sucess.json */; };
+		DDAAAB3B2A1F8EB300D36D85 /* ExchangeDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAAB3A2A1F8EB300D36D85 /* ExchangeDetailsViewModelTest.swift */; };
+		DDAAAB3D2A1F9EB100D36D85 /* exchangeDetails_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DDAAAB3C2A1F9EB100D36D85 /* exchangeDetails_data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DDAAAACE2A1A641D00D36D85 /* PBXContainerItemProxy */ = {
+		DDAAAAD82A1A641D00D36D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DDAAAAAF2A1A641C00D36D85 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DDAAAAB62A1A641C00D36D85;
 			remoteInfo = MercadoBitcoin;
 		};
-		DDAAAAD82A1A641D00D36D85 /* PBXContainerItemProxy */ = {
+		DDAAAB2C2A1F7D7C00D36D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DDAAAAAF2A1A641C00D36D85 /* Project object */;
 			proxyType = 1;
@@ -35,18 +56,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD9DAFE6DD9E6C765CEA05C /* Pods-MercadoBitcoin-MercadoBitcoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoBitcoin-MercadoBitcoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-MercadoBitcoin-MercadoBitcoinUITests/Pods-MercadoBitcoin-MercadoBitcoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F28A0FE96329547567CB150 /* Pods-MercadoBitcoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoBitcoinTests.debug.xcconfig"; path = "Target Support Files/Pods-MercadoBitcoinTests/Pods-MercadoBitcoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32D98DDAA1B4448A46CF9DDC /* Pods_MercadoBitcoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoBitcoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501FB4E2D922807F78C7B94D /* Pods-MercadoBitcoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoBitcoinTests.release.xcconfig"; path = "Target Support Files/Pods-MercadoBitcoinTests/Pods-MercadoBitcoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		B90FB68065E291D09ABD3BB6 /* Pods-MercadoBitcoin-MercadoBitcoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoBitcoin-MercadoBitcoinUITests.release.xcconfig"; path = "Target Support Files/Pods-MercadoBitcoin-MercadoBitcoinUITests/Pods-MercadoBitcoin-MercadoBitcoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C37FF787BF4B998AE719C0B3 /* Pods_MercadoBitcoin_MercadoBitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoBitcoin_MercadoBitcoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8FFE35702DE0834F84161A /* Pods-MercadoBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoBitcoin.release.xcconfig"; path = "Target Support Files/Pods-MercadoBitcoin/Pods-MercadoBitcoin.release.xcconfig"; sourceTree = "<group>"; };
 		DDAAAAB72A1A641C00D36D85 /* MercadoBitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercadoBitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDAAAABE2A1A641C00D36D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDAAAAC32A1A641D00D36D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDAAAAC62A1A641D00D36D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDAAAAC82A1A641D00D36D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDAAAACD2A1A641D00D36D85 /* MercadoBitcoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoBitcoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDAAAAD12A1A641D00D36D85 /* MercadoBitcoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoBitcoinTests.swift; sourceTree = "<group>"; };
 		DDAAAAD72A1A641D00D36D85 /* MercadoBitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoBitcoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAAAADB2A1A641D00D36D85 /* MercadoBitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoBitcoinUITests.swift; sourceTree = "<group>"; };
 		DDAAAADD2A1A641D00D36D85 /* MercadoBitcoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoBitcoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDAAAAED2A1A68B900D36D85 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		DDAAAAF02A1A6CF900D36D85 /* ExchangeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeListViewController.swift; sourceTree = "<group>"; };
+		DDAAAAF42A1A6F9F00D36D85 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		DDAAAAF72A1A706D00D36D85 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DDAAAAF92A1A70D500D36D85 /* ExchangeListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeListService.swift; sourceTree = "<group>"; };
+		DDAAAAFC2A1A796100D36D85 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		DDAAAAFF2A1A900F00D36D85 /* ExchangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCell.swift; sourceTree = "<group>"; };
+		DDAAAB012A1A9B1900D36D85 /* ExchangeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeListViewModel.swift; sourceTree = "<group>"; };
+		DDAAAB032A1ABD5F00D36D85 /* Decimal+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Extensions.swift"; sourceTree = "<group>"; };
+		DDAAAB062A1AC0AC00D36D85 /* ExchangeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeDetailsViewController.swift; sourceTree = "<group>"; };
+		DDAAAB082A1AC10D00D36D85 /* ExchangeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeDetailsViewModel.swift; sourceTree = "<group>"; };
+		DDAAAB0B2A1ACB6000D36D85 /* ExchangeDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeDetailsRowView.swift; sourceTree = "<group>"; };
+		DDAAAB0D2A1AF47B00D36D85 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		DDAAAB102A1C15F900D36D85 /* ExchangeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCoordinator.swift; sourceTree = "<group>"; };
+		DDAAAB122A1C163400D36D85 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		DDAAAB1D2A1E3C0A00D36D85 /* TableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extensions.swift"; sourceTree = "<group>"; };
+		DDAAAB282A1F7D7B00D36D85 /* MercadoBitcoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoBitcoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAAAB2A2A1F7D7C00D36D85 /* ExchangeListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeListViewModelTest.swift; sourceTree = "<group>"; };
+		DDAAAB322A1F859900D36D85 /* LoadJSONMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJSONMock.swift; sourceTree = "<group>"; };
+		DDAAAB352A1F86C900D36D85 /* exchangeList_sucess.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exchangeList_sucess.json; sourceTree = "<group>"; };
+		DDAAAB3A2A1F8EB300D36D85 /* ExchangeDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeDetailsViewModelTest.swift; sourceTree = "<group>"; };
+		DDAAAB3C2A1F9EB100D36D85 /* exchangeDetails_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exchangeDetails_data.json; sourceTree = "<group>"; };
+		F99797B9F1F989857163A15D /* Pods-MercadoBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoBitcoin.debug.xcconfig"; path = "Target Support Files/Pods-MercadoBitcoin/Pods-MercadoBitcoin.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE0A86F43C15E11D6A56912 /* Pods_MercadoBitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoBitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +103,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDAAAACA2A1A641D00D36D85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				89759796D94B377EA9F91C3E /* Pods_MercadoBitcoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DDAAAAD42A1A641D00D36D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81672379B0A5F97AFA7F758C /* Pods_MercadoBitcoin_MercadoBitcoinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAAAB252A1F7D7B00D36D85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,13 +125,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07367E61FFD84AC80C7A582E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0A86F43C15E11D6A56912 /* Pods_MercadoBitcoin.framework */,
+				C37FF787BF4B998AE719C0B3 /* Pods_MercadoBitcoin_MercadoBitcoinUITests.framework */,
+				32D98DDAA1B4448A46CF9DDC /* Pods_MercadoBitcoinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B52DBEB779DF8BC67A6CC7FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99797B9F1F989857163A15D /* Pods-MercadoBitcoin.debug.xcconfig */,
+				DD8FFE35702DE0834F84161A /* Pods-MercadoBitcoin.release.xcconfig */,
+				0AD9DAFE6DD9E6C765CEA05C /* Pods-MercadoBitcoin-MercadoBitcoinUITests.debug.xcconfig */,
+				B90FB68065E291D09ABD3BB6 /* Pods-MercadoBitcoin-MercadoBitcoinUITests.release.xcconfig */,
+				1F28A0FE96329547567CB150 /* Pods-MercadoBitcoinTests.debug.xcconfig */,
+				501FB4E2D922807F78C7B94D /* Pods-MercadoBitcoinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DDAAAAAE2A1A641C00D36D85 = {
 			isa = PBXGroup;
 			children = (
 				DDAAAAB92A1A641C00D36D85 /* MercadoBitcoin */,
-				DDAAAAD02A1A641D00D36D85 /* MercadoBitcoinTests */,
 				DDAAAADA2A1A641D00D36D85 /* MercadoBitcoinUITests */,
+				DDAAAB292A1F7D7C00D36D85 /* MercadoBitcoinTests */,
 				DDAAAAB82A1A641C00D36D85 /* Products */,
+				B52DBEB779DF8BC67A6CC7FB /* Pods */,
+				07367E61FFD84AC80C7A582E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				DDAAAAB72A1A641C00D36D85 /* MercadoBitcoin.app */,
-				DDAAAACD2A1A641D00D36D85 /* MercadoBitcoinTests.xctest */,
 				DDAAAAD72A1A641D00D36D85 /* MercadoBitcoinUITests.xctest */,
+				DDAAAB282A1F7D7B00D36D85 /* MercadoBitcoinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,22 +173,15 @@
 		DDAAAAB92A1A641C00D36D85 /* MercadoBitcoin */ = {
 			isa = PBXGroup;
 			children = (
-				DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */,
-				DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */,
-				DDAAAABE2A1A641C00D36D85 /* ViewController.swift */,
+				DDAAAAFB2A1A794800D36D85 /* Model */,
+				DDAAAAF22A1A6DBB00D36D85 /* Core */,
+				DDAAAAEC2A1A685800D36D85 /* App */,
+				DDAAAAEA2A1A681E00D36D85 /* Features */,
 				DDAAAAC32A1A641D00D36D85 /* Assets.xcassets */,
 				DDAAAAC52A1A641D00D36D85 /* LaunchScreen.storyboard */,
 				DDAAAAC82A1A641D00D36D85 /* Info.plist */,
 			);
 			path = MercadoBitcoin;
-			sourceTree = "<group>";
-		};
-		DDAAAAD02A1A641D00D36D85 /* MercadoBitcoinTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDAAAAD12A1A641D00D36D85 /* MercadoBitcoinTests.swift */,
-			);
-			path = MercadoBitcoinTests;
 			sourceTree = "<group>";
 		};
 		DDAAAADA2A1A641D00D36D85 /* MercadoBitcoinUITests */ = {
@@ -124,6 +193,152 @@
 			path = MercadoBitcoinUITests;
 			sourceTree = "<group>";
 		};
+		DDAAAAEA2A1A681E00D36D85 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB0F2A1C15E400D36D85 /* Exchange */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DDAAAAEB2A1A682F00D36D85 /* Commun */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAED2A1A68B900D36D85 /* Enviroment.swift */,
+				DDAAAB032A1ABD5F00D36D85 /* Decimal+Extensions.swift */,
+				DDAAAB0D2A1AF47B00D36D85 /* Date+Extensions.swift */,
+				DDAAAB1D2A1E3C0A00D36D85 /* TableView+Extensions.swift */,
+			);
+			path = Commun;
+			sourceTree = "<group>";
+		};
+		DDAAAAEC2A1A685800D36D85 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAABA2A1A641C00D36D85 /* AppDelegate.swift */,
+				DDAAAABC2A1A641C00D36D85 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DDAAAAEF2A1A6CC200D36D85 /* ExchangeList */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAFE2A1A8FE100D36D85 /* Cell */,
+				DDAAAAF02A1A6CF900D36D85 /* ExchangeListViewController.swift */,
+				DDAAAAF92A1A70D500D36D85 /* ExchangeListService.swift */,
+				DDAAAB012A1A9B1900D36D85 /* ExchangeListViewModel.swift */,
+			);
+			path = ExchangeList;
+			sourceTree = "<group>";
+		};
+		DDAAAAF22A1A6DBB00D36D85 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAEB2A1A682F00D36D85 /* Commun */,
+				DDAAAAF62A1A705900D36D85 /* Base */,
+				DDAAAAF32A1A6F8000D36D85 /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DDAAAAF32A1A6F8000D36D85 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAF42A1A6F9F00D36D85 /* NetworkSession.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DDAAAAF62A1A705900D36D85 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAF72A1A706D00D36D85 /* BaseViewController.swift */,
+				DDAAAB122A1C163400D36D85 /* BaseCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DDAAAAFB2A1A794800D36D85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAFC2A1A796100D36D85 /* Exchange.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDAAAAFE2A1A8FE100D36D85 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAAFF2A1A900F00D36D85 /* ExchangeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DDAAAB052A1AC08E00D36D85 /* ExchangeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB0A2A1ACB4C00D36D85 /* View */,
+				DDAAAB062A1AC0AC00D36D85 /* ExchangeDetailsViewController.swift */,
+				DDAAAB082A1AC10D00D36D85 /* ExchangeDetailsViewModel.swift */,
+			);
+			path = ExchangeDetails;
+			sourceTree = "<group>";
+		};
+		DDAAAB0A2A1ACB4C00D36D85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB0B2A1ACB6000D36D85 /* ExchangeDetailsRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDAAAB0F2A1C15E400D36D85 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB052A1AC08E00D36D85 /* ExchangeDetails */,
+				DDAAAAEF2A1A6CC200D36D85 /* ExchangeList */,
+				DDAAAB102A1C15F900D36D85 /* ExchangeCoordinator.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		DDAAAB292A1F7D7C00D36D85 /* MercadoBitcoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB392A1F8E8600D36D85 /* ViewModel */,
+				DDAAAB312A1F857C00D36D85 /* Mock */,
+			);
+			path = MercadoBitcoinTests;
+			sourceTree = "<group>";
+		};
+		DDAAAB312A1F857C00D36D85 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB342A1F86A600D36D85 /* Data */,
+				DDAAAB322A1F859900D36D85 /* LoadJSONMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		DDAAAB342A1F86A600D36D85 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB352A1F86C900D36D85 /* exchangeList_sucess.json */,
+				DDAAAB3C2A1F9EB100D36D85 /* exchangeDetails_data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DDAAAB392A1F8E8600D36D85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAAB2A2A1F7D7C00D36D85 /* ExchangeListViewModelTest.swift */,
+				DDAAAB3A2A1F8EB300D36D85 /* ExchangeDetailsViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDAAAAE12A1A641D00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoin" */;
 			buildPhases = (
+				ABFD288F48D71DDBD9BFDCA5 /* [CP] Check Pods Manifest.lock */,
 				DDAAAAB32A1A641C00D36D85 /* Sources */,
 				DDAAAAB42A1A641C00D36D85 /* Frameworks */,
 				DDAAAAB52A1A641C00D36D85 /* Resources */,
+				037866C3D6D308A2983180F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,31 +361,15 @@
 			productReference = DDAAAAB72A1A641C00D36D85 /* MercadoBitcoin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDAAAACC2A1A641D00D36D85 /* MercadoBitcoinTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDAAAAE42A1A641D00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoinTests" */;
-			buildPhases = (
-				DDAAAAC92A1A641D00D36D85 /* Sources */,
-				DDAAAACA2A1A641D00D36D85 /* Frameworks */,
-				DDAAAACB2A1A641D00D36D85 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDAAAACF2A1A641D00D36D85 /* PBXTargetDependency */,
-			);
-			name = MercadoBitcoinTests;
-			productName = MercadoBitcoinTests;
-			productReference = DDAAAACD2A1A641D00D36D85 /* MercadoBitcoinTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		DDAAAAD62A1A641D00D36D85 /* MercadoBitcoinUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDAAAAE72A1A641D00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoinUITests" */;
 			buildPhases = (
+				843FA262AE74488E3045E06D /* [CP] Check Pods Manifest.lock */,
 				DDAAAAD32A1A641D00D36D85 /* Sources */,
 				DDAAAAD42A1A641D00D36D85 /* Frameworks */,
 				DDAAAAD52A1A641D00D36D85 /* Resources */,
+				3E816FEAC380A99A835A3581 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +380,24 @@
 			productName = MercadoBitcoinUITests;
 			productReference = DDAAAAD72A1A641D00D36D85 /* MercadoBitcoinUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DDAAAB272A1F7D7B00D36D85 /* MercadoBitcoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAAAB2E2A1F7D7C00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoinTests" */;
+			buildPhases = (
+				DDAAAB242A1F7D7B00D36D85 /* Sources */,
+				DDAAAB252A1F7D7B00D36D85 /* Frameworks */,
+				DDAAAB262A1F7D7B00D36D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAAAB2D2A1F7D7C00D36D85 /* PBXTargetDependency */,
+			);
+			name = MercadoBitcoinTests;
+			productName = MercadoBitcoinTests;
+			productReference = DDAAAB282A1F7D7B00D36D85 /* MercadoBitcoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,11 +412,11 @@
 					DDAAAAB62A1A641C00D36D85 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					DDAAAACC2A1A641D00D36D85 = {
+					DDAAAAD62A1A641D00D36D85 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = DDAAAAB62A1A641C00D36D85;
 					};
-					DDAAAAD62A1A641D00D36D85 = {
+					DDAAAB272A1F7D7B00D36D85 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = DDAAAAB62A1A641C00D36D85;
 					};
@@ -217,8 +436,8 @@
 			projectRoot = "";
 			targets = (
 				DDAAAAB62A1A641C00D36D85 /* MercadoBitcoin */,
-				DDAAAACC2A1A641D00D36D85 /* MercadoBitcoinTests */,
 				DDAAAAD62A1A641D00D36D85 /* MercadoBitcoinUITests */,
+				DDAAAB272A1F7D7B00D36D85 /* MercadoBitcoinTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +452,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDAAAACB2A1A641D00D36D85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DDAAAAD52A1A641D00D36D85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,24 +459,121 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDAAAB262A1F7D7B00D36D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAAAB3D2A1F9EB100D36D85 /* exchangeDetails_data.json in Resources */,
+				DDAAAB362A1F86C900D36D85 /* exchangeList_sucess.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037866C3D6D308A2983180F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoBitcoin/Pods-MercadoBitcoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoBitcoin/Pods-MercadoBitcoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MercadoBitcoin/Pods-MercadoBitcoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E816FEAC380A99A835A3581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoBitcoin-MercadoBitcoinUITests/Pods-MercadoBitcoin-MercadoBitcoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoBitcoin-MercadoBitcoinUITests/Pods-MercadoBitcoin-MercadoBitcoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MercadoBitcoin-MercadoBitcoinUITests/Pods-MercadoBitcoin-MercadoBitcoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843FA262AE74488E3045E06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadoBitcoin-MercadoBitcoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABFD288F48D71DDBD9BFDCA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadoBitcoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDAAAAB32A1A641C00D36D85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDAAAABF2A1A641C00D36D85 /* ViewController.swift in Sources */,
+				DDAAAB042A1ABD5F00D36D85 /* Decimal+Extensions.swift in Sources */,
+				DDAAAB1E2A1E3C0A00D36D85 /* TableView+Extensions.swift in Sources */,
+				DDAAAB0C2A1ACB6000D36D85 /* ExchangeDetailsRowView.swift in Sources */,
+				DDAAAAF12A1A6CF900D36D85 /* ExchangeListViewController.swift in Sources */,
+				DDAAAB072A1AC0AC00D36D85 /* ExchangeDetailsViewController.swift in Sources */,
+				DDAAAB022A1A9B1900D36D85 /* ExchangeListViewModel.swift in Sources */,
+				DDAAAB002A1A900F00D36D85 /* ExchangeCell.swift in Sources */,
+				DDAAAB132A1C163400D36D85 /* BaseCoordinator.swift in Sources */,
 				DDAAAABB2A1A641C00D36D85 /* AppDelegate.swift in Sources */,
+				DDAAAAF52A1A6F9F00D36D85 /* NetworkSession.swift in Sources */,
+				DDAAAB0E2A1AF47B00D36D85 /* Date+Extensions.swift in Sources */,
+				DDAAAAFA2A1A70D500D36D85 /* ExchangeListService.swift in Sources */,
+				DDAAAAEE2A1A68B900D36D85 /* Enviroment.swift in Sources */,
+				DDAAAB112A1C15F900D36D85 /* ExchangeCoordinator.swift in Sources */,
+				DDAAAAF82A1A706D00D36D85 /* BaseViewController.swift in Sources */,
 				DDAAAABD2A1A641C00D36D85 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDAAAAC92A1A641D00D36D85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDAAAAD22A1A641D00D36D85 /* MercadoBitcoinTests.swift in Sources */,
+				DDAAAAFD2A1A796100D36D85 /* Exchange.swift in Sources */,
+				DDAAAB092A1AC10D00D36D85 /* ExchangeDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,18 +586,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDAAAB242A1F7D7B00D36D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAAAB3B2A1F8EB300D36D85 /* ExchangeDetailsViewModelTest.swift in Sources */,
+				DDAAAB2B2A1F7D7C00D36D85 /* ExchangeListViewModelTest.swift in Sources */,
+				DDAAAB332A1F859900D36D85 /* LoadJSONMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DDAAAACF2A1A641D00D36D85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDAAAAB62A1A641C00D36D85 /* MercadoBitcoin */;
-			targetProxy = DDAAAACE2A1A641D00D36D85 /* PBXContainerItemProxy */;
-		};
 		DDAAAAD92A1A641D00D36D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DDAAAAB62A1A641C00D36D85 /* MercadoBitcoin */;
 			targetProxy = DDAAAAD82A1A641D00D36D85 /* PBXContainerItemProxy */;
+		};
+		DDAAAB2D2A1F7D7C00D36D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAAAAB62A1A641C00D36D85 /* MercadoBitcoin */;
+			targetProxy = DDAAAB2C2A1F7D7C00D36D85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,7 +739,10 @@
 		};
 		DDAAAAE22A1A641D00D36D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99797B9F1F989857163A15D /* Pods-MercadoBitcoin.debug.xcconfig */;
 			buildSettings = {
+				API_KEY = "E4D428BB-7AC9-48F9-803D-54F06CD02393";
+				API_URL = "https://rest-sandbox.coinapi.io/";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,8 +752,8 @@
 				INFOPLIST_FILE = MercadoBitcoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,7 +769,10 @@
 		};
 		DDAAAAE32A1A641D00D36D85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8FFE35702DE0834F84161A /* Pods-MercadoBitcoin.release.xcconfig */;
 			buildSettings = {
+				API_KEY = "E4D428BB-7AC9-48F9-803D-54F06CD02393";
+				API_URL = "https://rest.coinapi.io/";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,8 +782,8 @@
 				INFOPLIST_FILE = MercadoBitcoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,48 +797,9 @@
 			};
 			name = Release;
 		};
-		DDAAAAE52A1A641D00D36D85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8TSAD4L2TJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.giampaoli.MercadoBitcoinTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MercadoBitcoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MercadoBitcoin";
-			};
-			name = Debug;
-		};
-		DDAAAAE62A1A641D00D36D85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8TSAD4L2TJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.giampaoli.MercadoBitcoinTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MercadoBitcoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MercadoBitcoin";
-			};
-			name = Release;
-		};
 		DDAAAAE82A1A641D00D36D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD9DAFE6DD9E6C765CEA05C /* Pods-MercadoBitcoin-MercadoBitcoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +818,7 @@
 		};
 		DDAAAAE92A1A641D00D36D85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90FB68065E291D09ABD3BB6 /* Pods-MercadoBitcoin-MercadoBitcoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +832,42 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MercadoBitcoin;
+			};
+			name = Release;
+		};
+		DDAAAB2F2A1F7D7C00D36D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TSAD4L2TJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giampaoli.MercadoBitcoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MercadoBitcoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MercadoBitcoin";
+			};
+			name = Debug;
+		};
+		DDAAAB302A1F7D7C00D36D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TSAD4L2TJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giampaoli.MercadoBitcoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MercadoBitcoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MercadoBitcoin";
 			};
 			name = Release;
 		};
@@ -569,20 +892,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDAAAAE42A1A641D00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoinTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDAAAAE52A1A641D00D36D85 /* Debug */,
-				DDAAAAE62A1A641D00D36D85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DDAAAAE72A1A641D00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoinUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDAAAAE82A1A641D00D36D85 /* Debug */,
 				DDAAAAE92A1A641D00D36D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAAAB2E2A1F7D7C00D36D85 /* Build configuration list for PBXNativeTarget "MercadoBitcoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAAAB2F2A1F7D7C00D36D85 /* Debug */,
+				DDAAAB302A1F7D7C00D36D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
